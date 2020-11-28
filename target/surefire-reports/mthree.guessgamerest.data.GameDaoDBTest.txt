@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------
+Test set: mthree.guessgamerest.data.GameDaoDBTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 24.414 s <<< FAILURE! - in mthree.guessgamerest.data.GameDaoDBTest
+testGetAllGames(mthree.guessgamerest.data.GameDaoDBTest)  Time elapsed: 5.742 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+
+testUpdateGame(mthree.guessgamerest.data.GameDaoDBTest)  Time elapsed: 5.061 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+
+testDeleteAll(mthree.guessgamerest.data.GameDaoDBTest)  Time elapsed: 5.116 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+
+testAddGetGame(mthree.guessgamerest.data.GameDaoDBTest)  Time elapsed: 5.063 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.data.GameDaoDBTest.setUp(GameDaoDBTest.java:50)
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Guess Game</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="GuessFullStack.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body style="background-color: gold;">
+    <div class="text-center">
+      <h2 id="greet">Enjoy the game!</h2>
+      <img src="bullimg.jpg" width="200" height="128" /><br />
+      <button id="showInstructions" name="show" onclick="showInstructions()">
+        Show Instructions
+      </button>
+    </div>
+    <div id="overlay" class="overlay-content">
+      <a href="javascript:void(0)" class="closebtn" onclick="showInstructions()"
+        >&times;</a
+      >
+      <p id="text">
+        This is a number guessing game known as "Bulls and Cows".<br />
+        In each game, a 4-digit number is generated where every digit is
+        different.<br />
+        For each round, you guess a number and are told the exact and partial
+        digit matches.<br />
+        <br />
+        An exact match occurs when you guess the correct digit in the correct
+        position.<br />
+        A partial match occurs when the you guess the correct digit but in the
+        wrong position.<br />
+        Once the number is guessed (exact matches for all digits) you win the
+        game.<br />
+      </p>
+    </div>
+    <div class="container" style="background-color: #0080ff;">
+      <div class="row">
+        <div class="col-4 mx-auto">
+          <div class="card card-body mb-2" style="background-color: #0080ff;">
+            <h4 class="text-center">Get a Game</h4>
+            <form id="form1">
+              <label for="lname">Enter ID:</label><br />
+              <input type="text" id="getGameId" name="lname" value="1" />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <div class="col-4 mx-auto">
+          <div class="card card-body mb-2" style="background-color: #0080ff;">
+            <h4 class="text-center">Get a Game's Rounds Arzum</h4>
+            <form id="form2">
+              <label for="lname">Enter ID:</label><br />
+              <input type="text" id="getGameRoundsId" name="lname" value="1" />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <div class="col-4 mx-auto">
+          <div class="card card-body mb-2" style="background-color: #0080ff;">
+            <h4 class="text-center">Make a Guess</h4>
+            <form id="form3">
+              <label for="fname">Enter ID:</label><br />
+              <input
+                type="text"
+                id="guessGameId"
+                name="fname"
+                value="1"
+              /><br />
+              <label for="lname">Enter guess (4 unique digits):</label><br />
+              <input type="text" id="guess" name="lname" value="1234" /><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mx-auto">
+          <div class="card card-body mb-2" style="background-color: #0080ff;">
+            <h4 class="text-center">Get All Games</h4>
+            <button id="getGames" onclick="getGames()">Get all games</button>
+          </div>
+        </div>
+        <div class="col-4 mx-auto">
+          <div class="card card-body mb-2" style="background-color: #0080ff;">
+            <h4 class="text-center">Games to Choose From</h4>
+            <div class="text-center">
+              <p id="choose"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 mx-auto">
+          <div class="card card-body mb-2" style="background-color: #0080ff;">
+            <h4 class="text-center">Begin a Game</h4>
+            <button id="beginGame" onclick="beginGame()">
+              Begin a game
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 mx-auto">
+          <h4 class="text-center">Result<br />-</h4>
+          <div class="text-center">
+            <table class="table table-bordered" id="gameTable"></table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="GuessFullStack.js"></script>
+  </body>
+</html>

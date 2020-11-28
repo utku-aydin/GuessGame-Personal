@@ -1,0 +1,99 @@
+-------------------------------------------------------------------------------
+Test set: mthree.guessgamerest.service.GuessGameServiceDBTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 25.331 s <<< FAILURE! - in mthree.guessgamerest.service.GuessGameServiceDBTest
+testGetAllGames(mthree.guessgamerest.service.GuessGameServiceDBTest)  Time elapsed: 5.06 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+
+testGetRoundsForGame(mthree.guessgamerest.service.GuessGameServiceDBTest)  Time elapsed: 5.077 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+
+testBeginGame(mthree.guessgamerest.service.GuessGameServiceDBTest)  Time elapsed: 5.046 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+
+testGetGameById(mthree.guessgamerest.service.GuessGameServiceDBTest)  Time elapsed: 5.052 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+
+testMakeGuess(mthree.guessgamerest.service.GuessGameServiceDBTest)  Time elapsed: 5.08 s  <<< ERROR!
+org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at mthree.guessgamerest.service.GuessGameServiceDBTest.setUp(GuessGameServiceDBTest.java:43)
+
